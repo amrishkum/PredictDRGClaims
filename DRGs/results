@@ -1,0 +1,688 @@
+MDC 4
+
+DecisionTreeClassifier(class_weight=None, criterion='gini', max_depth=None,
+            max_features=None, max_leaf_nodes=None,
+            min_impurity_decrease=0.0, min_impurity_split=None,
+            min_samples_leaf=1, min_samples_split=2,
+            min_weight_fraction_leaf=0.0, presort=False, random_state=None,
+            splitter='best')
+0.9124660071729791
+Test Accuracy: 0.9124660071729791
+             precision    recall  f1-score   support
+
+        163       0.90      0.91      0.91      1155
+        164       0.94      0.90      0.92      1303
+        165       0.92      0.91      0.91      1150
+        166       0.92      0.91      0.91      1276
+        167       0.90      0.91      0.91      1292
+        168       0.91      0.91      0.91      1337
+        175       0.91      0.91      0.91      1249
+        176       0.91      0.88      0.90      1305
+        177       0.91      0.93      0.92      1285
+        178       0.92      0.91      0.91      1244
+        179       0.89      0.92      0.91      1214
+        180       0.90      0.90      0.90      1250
+        181       0.89      0.93      0.91      1281
+        182       0.92      0.92      0.92      1203
+        183       0.91      0.91      0.91      1329
+        184       0.89      0.92      0.90      1272
+        185       0.93      0.93      0.93      1260
+        186       0.93      0.93      0.93      1213
+        187       0.88      0.94      0.91      1258
+        188       0.91      0.90      0.90      1302
+        189       0.92      0.90      0.91      1361
+        190       0.93      0.91      0.92      1220
+        191       0.91      0.93      0.92      1175
+        192       0.93      0.91      0.92      1274
+        193       0.90      0.91      0.90      1261
+        194       0.93      0.92      0.92      1295
+        195       0.92      0.92      0.92      1312
+        196       0.91      0.91      0.91      1299
+        197       0.92      0.91      0.91      1312
+        198       0.95      0.89      0.92      1314
+        199       0.90      0.92      0.91      1295
+        200       0.90      0.91      0.91      1221
+        201       0.92      0.93      0.93      1214
+        202       0.92      0.91      0.92      1299
+        203       0.92      0.91      0.91      1285
+        204       0.91      0.91      0.91      1302
+        205       0.89      0.92      0.90      1273
+        206       0.92      0.92      0.92      1352
+        207       0.89      0.90      0.89      1211
+        208       0.91      0.93      0.92      1293
+
+avg / total       0.91      0.91      0.91     50746
+
+Test Accuracy:  0.9124660071729791
+RandomForestClassifier(bootstrap=True, class_weight=None, criterion='gini',
+            max_depth=None, max_features='auto', max_leaf_nodes=None,
+            min_impurity_decrease=0.0, min_impurity_split=None,
+            min_samples_leaf=1, min_samples_split=2,
+            min_weight_fraction_leaf=0.0, n_estimators=10, n_jobs=1,
+            oob_score=False, random_state=None, verbose=0,
+            warm_start=False)
+0.9081898080636898
+Test Accuracy: 0.9081898080636898
+             precision    recall  f1-score   support
+
+        163       0.73      0.91      0.81      1155
+        164       0.79      0.92      0.85      1303
+        165       0.84      0.90      0.87      1150
+        166       0.82      0.91      0.86      1276
+        167       0.87      0.91      0.89      1292
+        168       0.87      0.90      0.89      1337
+        175       0.84      0.91      0.88      1249
+        176       0.89      0.88      0.89      1305
+        177       0.90      0.92      0.91      1285
+        178       0.93      0.91      0.92      1244
+        179       0.92      0.92      0.92      1214
+        180       0.90      0.89      0.90      1250
+        181       0.90      0.93      0.91      1281
+        182       0.91      0.92      0.92      1203
+        183       0.92      0.90      0.91      1329
+        184       0.94      0.91      0.92      1272
+        185       0.91      0.93      0.92      1260
+        186       0.92      0.93      0.92      1213
+        187       0.92      0.94      0.93      1258
+        188       0.91      0.89      0.90      1302
+        189       0.91      0.90      0.90      1361
+        190       0.92      0.91      0.91      1220
+        191       0.94      0.92      0.93      1175
+        192       0.94      0.90      0.92      1274
+        193       0.92      0.90      0.91      1261
+        194       0.93      0.91      0.92      1295
+        195       0.93      0.91      0.92      1312
+        196       0.93      0.89      0.91      1299
+        197       0.92      0.90      0.91      1312
+        198       0.95      0.88      0.91      1314
+        199       0.94      0.92      0.93      1295
+        200       0.94      0.91      0.92      1221
+        201       0.96      0.93      0.94      1214
+        202       0.94      0.90      0.92      1299
+        203       0.95      0.90      0.92      1285
+        204       0.96      0.90      0.93      1302
+        205       0.95      0.91      0.93      1273
+        206       0.96      0.91      0.93      1352
+        207       0.94      0.90      0.92      1211
+        208       0.96      0.92      0.94      1293
+
+avg / total       0.91      0.91      0.91     50746
+
+Test Accuracy:  0.9081898080636898
+AdaBoostClassifier(algorithm='SAMME.R',
+          base_estimator=DecisionTreeClassifier(class_weight=None, criterion='gini', max_depth=None,
+            max_features=None, max_leaf_nodes=None,
+            min_impurity_decrease=0.0, min_impurity_split=None,
+            min_samples_leaf=1, min_samples_split=2,
+            min_weight_fraction_leaf=0.0, presort=False, random_state=None,
+            splitter='best'),
+          learning_rate=0.1, n_estimators=1000, random_state=None)
+0.911993063492689
+Test Accuracy: 0.911993063492689
+             precision    recall  f1-score   support
+
+        163       0.90      0.91      0.91      1155
+        164       0.92      0.90      0.91      1303
+        165       0.92      0.91      0.91      1150
+        166       0.90      0.91      0.91      1276
+        167       0.91      0.90      0.91      1292
+        168       0.91      0.91      0.91      1337
+        175       0.90      0.91      0.91      1249
+        176       0.93      0.88      0.90      1305
+        177       0.92      0.93      0.92      1285
+        178       0.94      0.91      0.92      1244
+        179       0.91      0.92      0.92      1214
+        180       0.90      0.89      0.89      1250
+        181       0.91      0.93      0.92      1281
+        182       0.92      0.92      0.92      1203
+        183       0.91      0.91      0.91      1329
+        184       0.90      0.92      0.91      1272
+        185       0.92      0.93      0.93      1260
+        186       0.92      0.93      0.92      1213
+        187       0.89      0.94      0.91      1258
+        188       0.92      0.90      0.91      1302
+        189       0.91      0.90      0.90      1361
+        190       0.92      0.91      0.91      1220
+        191       0.93      0.93      0.93      1175
+        192       0.91      0.91      0.91      1274
+        193       0.90      0.91      0.90      1261
+        194       0.93      0.91      0.92      1295
+        195       0.91      0.92      0.92      1312
+        196       0.92      0.91      0.91      1299
+        197       0.90      0.92      0.91      1312
+        198       0.91      0.89      0.90      1314
+        199       0.90      0.92      0.91      1295
+        200       0.89      0.91      0.90      1221
+        201       0.92      0.93      0.92      1214
+        202       0.93      0.90      0.91      1299
+        203       0.94      0.90      0.92      1285
+        204       0.90      0.91      0.90      1302
+        205       0.92      0.92      0.92      1273
+        206       0.92      0.92      0.92      1352
+        207       0.89      0.90      0.89      1211
+        208       0.91      0.93      0.92      1293
+
+avg / total       0.91      0.91      0.91     50746
+
+Test Accuracy for Ada boost Classifier:  0.911993063492689
+
+MDC 5
+
+DecisionTreeClassifier(class_weight=None, criterion='gini', max_depth=None,
+            max_features=None, max_leaf_nodes=None,
+            min_impurity_decrease=0.0, min_impurity_split=None,
+            min_samples_leaf=1, min_samples_split=2,
+            min_weight_fraction_leaf=0.0, presort=False, random_state=None,
+            splitter='best')
+0.9065306546228521
+Test Accuracy: 0.9065306546228521
+             precision    recall  f1-score   support
+
+        215       0.87      0.90      0.89       911
+        216       0.93      0.91      0.92       921
+        217       0.89      0.88      0.89       931
+        218       0.90      0.91      0.90       914
+        219       0.89      0.92      0.90       916
+        220       0.89      0.93      0.91       801
+        221       0.93      0.90      0.92       902
+        222       0.89      0.92      0.90       949
+        223       0.89      0.91      0.90       879
+        224       0.90      0.89      0.90       873
+        225       0.90      0.90      0.90       940
+        226       0.91      0.91      0.91       963
+        227       0.91      0.91      0.91       987
+        228       0.94      0.86      0.90       927
+        229       0.89      0.96      0.92       965
+        231       0.89      0.90      0.89       994
+        232       0.90      0.90      0.90       904
+        233       0.93      0.90      0.91       952
+        234       0.89      0.91      0.90       918
+        235       0.91      0.92      0.92       924
+        236       0.90      0.91      0.90       957
+        239       0.90      0.90      0.90       864
+        240       0.91      0.87      0.89       922
+        241       0.91      0.90      0.91       919
+        242       0.89      0.93      0.91       919
+        243       0.93      0.91      0.92       908
+        244       0.90      0.92      0.91       910
+        245       0.91      0.92      0.91       855
+        246       0.92      0.92      0.92       926
+        247       0.92      0.89      0.90       889
+        248       0.94      0.91      0.92       865
+        249       0.92      0.91      0.92       939
+        250       0.94      0.90      0.92       918
+        251       0.91      0.89      0.90       935
+        252       0.90      0.91      0.91       910
+        253       0.91      0.95      0.93       837
+        254       0.92      0.88      0.90       908
+        255       0.92      0.90      0.91       903
+        256       0.91      0.89      0.90       975
+        257       0.90      0.89      0.90       927
+        258       0.90      0.92      0.91       935
+        259       0.88      0.90      0.89       823
+        260       0.90      0.92      0.91       905
+        261       0.93      0.89      0.91       948
+        262       0.93      0.88      0.90       886
+        263       0.92      0.89      0.91       940
+        264       0.89      0.91      0.90       941
+        280       0.92      0.93      0.92      1011
+        281       0.90      0.92      0.91       912
+        282       0.88      0.93      0.91       943
+        283       0.92      0.88      0.90       973
+        284       0.92      0.92      0.92       895
+        285       0.90      0.90      0.90       973
+        286       0.89      0.91      0.90       942
+        287       0.91      0.90      0.91       926
+        288       0.93      0.93      0.93       871
+        289       0.90      0.89      0.89       885
+        290       0.91      0.90      0.91       934
+        291       0.87      0.95      0.91       863
+        292       0.92      0.90      0.91       882
+        293       0.90      0.90      0.90       908
+        294       0.91      0.91      0.91       914
+        295       0.91      0.90      0.90       953
+        296       0.89      0.90      0.90       880
+        297       0.87      0.91      0.89       811
+        298       0.89      0.90      0.89       873
+        299       0.91      0.90      0.90       899
+        300       0.90      0.92      0.91       864
+        301       0.92      0.90      0.91       903
+        302       0.92      0.91      0.92       939
+        303       0.88      0.88      0.88       947
+        304       0.92      0.90      0.91       979
+        305       0.93      0.90      0.91       967
+        306       0.92      0.90      0.91       872
+        307       0.91      0.91      0.91       953
+        308       0.91      0.91      0.91       922
+        309       0.93      0.91      0.92       965
+        310       0.93      0.91      0.92       918
+        311       0.90      0.90      0.90       903
+        312       0.91      0.93      0.92       879
+        313       0.88      0.91      0.90       924
+        314       0.91      0.93      0.92       959
+        315       0.91      0.88      0.89       934
+        316       0.91      0.93      0.92       941
+
+avg / total       0.91      0.91      0.91     77052
+
+Train Accuracy: 1.0
+Test Accuracy for Decision Tree:  0.9065306546228521
+RandomForestClassifier(bootstrap=True, class_weight=None, criterion='gini',
+            max_depth=None, max_features='auto', max_leaf_nodes=None,
+            min_impurity_decrease=0.0, min_impurity_split=None,
+            min_samples_leaf=1, min_samples_split=2,
+            min_weight_fraction_leaf=0.0, n_estimators=10, n_jobs=1,
+            oob_score=False, random_state=None, verbose=0,
+            warm_start=False)
+0.9026890930799979
+Test Accuracy: 0.9026890930799979
+             precision    recall  f1-score   support
+
+        215       0.66      0.91      0.76       911
+        216       0.70      0.91      0.79       921
+        217       0.72      0.89      0.79       931
+        218       0.74      0.91      0.82       914
+        219       0.76      0.91      0.83       916
+        220       0.76      0.93      0.84       801
+        221       0.81      0.90      0.85       902
+        222       0.77      0.91      0.84       949
+        223       0.80      0.91      0.85       879
+        224       0.82      0.90      0.86       873
+        225       0.83      0.90      0.86       940
+        226       0.83      0.91      0.87       963
+        227       0.84      0.91      0.87       987
+        228       0.86      0.86      0.86       927
+        229       0.87      0.96      0.91       965
+        231       0.85      0.90      0.87       994
+        232       0.88      0.90      0.89       904
+        233       0.89      0.89      0.89       952
+        234       0.90      0.91      0.91       918
+        235       0.89      0.91      0.90       924
+        236       0.90      0.91      0.90       957
+        239       0.89      0.90      0.89       864
+        240       0.93      0.86      0.89       922
+        241       0.92      0.89      0.91       919
+        242       0.92      0.92      0.92       919
+        243       0.93      0.90      0.92       908
+        244       0.91      0.93      0.92       910
+        245       0.93      0.91      0.92       855
+        246       0.92      0.91      0.92       926
+        247       0.91      0.89      0.90       889
+        248       0.91      0.91      0.91       865
+        249       0.92      0.91      0.91       939
+        250       0.94      0.89      0.91       918
+        251       0.94      0.88      0.91       935
+        252       0.92      0.90      0.91       910
+        253       0.94      0.94      0.94       837
+        254       0.95      0.88      0.92       908
+        255       0.93      0.89      0.91       903
+        256       0.94      0.89      0.91       975
+        257       0.96      0.89      0.92       927
+        258       0.93      0.91      0.92       935
+        259       0.94      0.89      0.91       823
+        260       0.93      0.92      0.92       905
+        261       0.93      0.89      0.91       948
+        262       0.94      0.88      0.91       886
+        263       0.95      0.89      0.92       940
+        264       0.97      0.91      0.94       941
+        280       0.96      0.92      0.94      1011
+        281       0.94      0.91      0.93       912
+        282       0.94      0.93      0.93       943
+        283       0.95      0.88      0.91       973
+        284       0.94      0.91      0.92       895
+        285       0.97      0.90      0.93       973
+        286       0.97      0.91      0.94       942
+        287       0.95      0.90      0.92       926
+        288       0.94      0.92      0.93       871
+        289       0.97      0.89      0.92       885
+        290       0.93      0.89      0.91       934
+        291       0.94      0.94      0.94       863
+        292       0.95      0.89      0.92       882
+        293       0.94      0.91      0.92       908
+        294       0.97      0.91      0.94       914
+        295       0.93      0.90      0.91       953
+        296       0.93      0.90      0.91       880
+        297       0.96      0.90      0.93       811
+        298       0.95      0.89      0.92       873
+        299       0.94      0.89      0.91       899
+        300       0.95      0.91      0.93       864
+        301       0.96      0.90      0.93       903
+        302       0.93      0.91      0.92       939
+        303       0.97      0.88      0.92       947
+        304       0.95      0.89      0.92       979
+        305       0.93      0.90      0.91       967
+        306       0.93      0.89      0.91       872
+        307       0.97      0.90      0.93       953
+        308       0.95      0.90      0.93       922
+        309       0.94      0.90      0.92       965
+        310       0.96      0.90      0.93       918
+        311       0.95      0.90      0.92       903
+        312       0.93      0.92      0.93       879
+        313       0.94      0.91      0.92       924
+        314       0.94      0.93      0.93       959
+        315       0.94      0.87      0.91       934
+        316       0.95      0.92      0.93       941
+
+avg / total       0.91      0.90      0.90     77052
+
+Train Accuracy: 0.9992046055010151
+Test Accuracy for Random Forest:  0.9026890930799979
+AdaBoostClassifier(algorithm='SAMME.R',
+          base_estimator=DecisionTreeClassifier(class_weight=None, criterion='gini', max_depth=None,
+            max_features=None, max_leaf_nodes=None,
+            min_impurity_decrease=0.0, min_impurity_split=None,
+            min_samples_leaf=1, min_samples_split=2,
+            min_weight_fraction_leaf=0.0, presort=False, random_state=None,
+            splitter='best'),
+          learning_rate=0.1, n_estimators=1000, random_state=None)
+0.9067123501012303
+Test Accuracy: 0.9067123501012303
+             precision    recall  f1-score   support
+
+        215       0.90      0.90      0.90       911
+        216       0.91      0.91      0.91       921
+        217       0.91      0.88      0.90       931
+        218       0.91      0.91      0.91       914
+        219       0.89      0.92      0.90       916
+        220       0.90      0.93      0.92       801
+        221       0.93      0.90      0.91       902
+        222       0.89      0.91      0.90       949
+        223       0.89      0.91      0.90       879
+        224       0.91      0.89      0.90       873
+        225       0.92      0.90      0.91       940
+        226       0.91      0.91      0.91       963
+        227       0.90      0.91      0.91       987
+        228       0.92      0.86      0.89       927
+        229       0.89      0.96      0.92       965
+        231       0.91      0.90      0.91       994
+        232       0.91      0.91      0.91       904
+        233       0.90      0.90      0.90       952
+        234       0.88      0.91      0.90       918
+        235       0.92      0.92      0.92       924
+        236       0.90      0.91      0.91       957
+        239       0.93      0.90      0.92       864
+        240       0.90      0.87      0.88       922
+        241       0.90      0.90      0.90       919
+        242       0.87      0.93      0.90       919
+        243       0.94      0.91      0.92       908
+        244       0.92      0.92      0.92       910
+        245       0.90      0.92      0.91       855
+        246       0.94      0.92      0.93       926
+        247       0.91      0.89      0.90       889
+        248       0.91      0.91      0.91       865
+        249       0.92      0.91      0.92       939
+        250       0.90      0.89      0.90       918
+        251       0.92      0.90      0.91       935
+        252       0.88      0.91      0.90       910
+        253       0.90      0.95      0.92       837
+        254       0.91      0.88      0.90       908
+        255       0.90      0.90      0.90       903
+        256       0.91      0.89      0.90       975
+        257       0.92      0.89      0.91       927
+        258       0.92      0.92      0.92       935
+        259       0.89      0.90      0.90       823
+        260       0.91      0.92      0.92       905
+        261       0.93      0.89      0.91       948
+        262       0.92      0.88      0.90       886
+        263       0.91      0.90      0.91       940
+        264       0.91      0.91      0.91       941
+        280       0.90      0.93      0.91      1011
+        281       0.92      0.92      0.92       912
+        282       0.90      0.93      0.91       943
+        283       0.92      0.88      0.90       973
+        284       0.90      0.92      0.91       895
+        285       0.91      0.91      0.91       973
+        286       0.89      0.91      0.90       942
+        287       0.90      0.90      0.90       926
+        288       0.92      0.93      0.93       871
+        289       0.91      0.89      0.90       885
+        290       0.92      0.90      0.91       934
+        291       0.89      0.95      0.92       863
+        292       0.90      0.90      0.90       882
+        293       0.88      0.90      0.89       908
+        294       0.92      0.91      0.92       914
+        295       0.91      0.90      0.91       953
+        296       0.91      0.90      0.91       880
+        297       0.85      0.91      0.88       811
+        298       0.90      0.90      0.90       873
+        299       0.91      0.90      0.90       899
+        300       0.90      0.92      0.91       864
+        301       0.90      0.90      0.90       903
+        302       0.91      0.91      0.91       939
+        303       0.90      0.88      0.89       947
+        304       0.89      0.90      0.90       979
+        305       0.91      0.90      0.90       967
+        306       0.92      0.90      0.91       872
+        307       0.88      0.90      0.89       953
+        308       0.90      0.91      0.91       922
+        309       0.95      0.91      0.93       965
+        310       0.90      0.91      0.90       918
+        311       0.89      0.90      0.89       903
+        312       0.92      0.92      0.92       879
+        313       0.92      0.91      0.92       924
+        314       0.91      0.93      0.92       959
+        315       0.90      0.88      0.89       934
+        316       0.93      0.93      0.93       941
+
+avg / total       0.91      0.91      0.91     77052
+
+Train Accuracy: 1.0
+Test Accuracy for Ada boost Classifier:  0.9067123501012303
+
+MDC 3
+
+DecisionTreeClassifier(class_weight=None, criterion='gini', max_depth=None,
+            max_features=None, max_leaf_nodes=None,
+            min_impurity_decrease=0.0, min_impurity_split=None,
+            min_samples_leaf=1, min_samples_split=2,
+            min_weight_fraction_leaf=0.0, presort=False, random_state=None,
+            splitter='best')
+0.9120676968359087
+Test Accuracy: 0.9120676968359087
+             precision    recall  f1-score   support
+
+        129       0.92      0.92      0.92       113
+        130       0.85      0.95      0.90       127
+        131       0.97      0.90      0.93       118
+        132       0.88      0.97      0.92        94
+        133       1.00      0.95      0.97       113
+        134       0.91      0.86      0.89       108
+        135       0.97      0.89      0.93       106
+        136       0.89      1.00      0.94        97
+        137       0.92      0.92      0.92       112
+        138       0.87      0.89      0.88       110
+        139       0.88      0.94      0.91       112
+        146       0.87      0.93      0.90        90
+        147       0.94      0.97      0.95        93
+        148       0.92      0.87      0.89       113
+        149       0.92      0.92      0.92       115
+        150       0.85      0.88      0.86       120
+        151       0.90      0.90      0.90       121
+        152       0.94      0.89      0.91       106
+        153       0.87      0.92      0.89       108
+        154       0.97      0.84      0.90       103
+        155       0.91      0.91      0.91       102
+        156       0.90      0.88      0.89       126
+        157       0.90      0.86      0.88       104
+        158       0.97      0.97      0.97        94
+        159       0.95      0.92      0.93       113
+
+avg / total       0.91      0.91      0.91      2718
+
+Train Accuracy: 1.0
+Test Accuracy for Decision Tree:  0.9120676968359087
+RandomForestClassifier(bootstrap=True, class_weight=None, criterion='gini',
+            max_depth=None, max_features='auto', max_leaf_nodes=None,
+            min_impurity_decrease=0.0, min_impurity_split=None,
+            min_samples_leaf=1, min_samples_split=2,
+            min_weight_fraction_leaf=0.0, n_estimators=10, n_jobs=1,
+            oob_score=False, random_state=None, verbose=0,
+            warm_start=False)
+0.9076526857983812
+Test Accuracy: 0.9076526857983812
+             precision    recall  f1-score   support
+
+        129       0.86      0.95      0.90       113
+        130       0.83      0.94      0.88       127
+        131       0.95      0.90      0.92       118
+        132       0.92      0.97      0.94        94
+        133       0.84      0.95      0.89       113
+        134       0.88      0.84      0.86       108
+        135       0.80      0.89      0.84       106
+        136       0.97      1.00      0.98        97
+        137       0.92      0.88      0.90       112
+        138       0.95      0.87      0.91       110
+        139       0.85      0.94      0.89       112
+        146       0.90      0.93      0.92        90
+        147       1.00      0.94      0.97        93
+        148       0.87      0.87      0.87       113
+        149       0.92      0.92      0.92       115
+        150       0.97      0.88      0.92       120
+        151       0.89      0.90      0.90       121
+        152       0.91      0.89      0.90       106
+        153       0.93      0.92      0.92       108
+        154       0.94      0.84      0.89       103
+        155       0.97      0.91      0.94       102
+        156       1.00      0.88      0.94       126
+        157       0.89      0.86      0.87       104
+        158       0.91      0.97      0.94        94
+        159       0.92      0.90      0.91       113
+
+avg / total       0.91      0.91      0.91      2718
+
+Train Accuracy: 0.9990537770067812
+Test Accuracy for Random Forest:  0.9076526857983812
+AdaBoostClassifier(algorithm='SAMME.R',
+          base_estimator=DecisionTreeClassifier(class_weight=None, criterion='gini', max_depth=None,
+            max_features=None, max_leaf_nodes=None,
+            min_impurity_decrease=0.0, min_impurity_split=None,
+            min_samples_leaf=1, min_samples_split=2,
+            min_weight_fraction_leaf=0.0, presort=False, random_state=None,
+            splitter='best'),
+          learning_rate=0.1, n_estimators=1000, random_state=None)
+0.9131714495952906
+Test Accuracy: 0.9131714495952906
+             precision    recall  f1-score   support
+
+        129       1.00      0.92      0.96       113
+        130       0.93      0.95      0.94       127
+        131       0.97      0.90      0.93       118
+        132       0.91      0.97      0.94        94
+        133       1.00      0.95      0.97       113
+        134       0.91      0.86      0.89       108
+        135       0.97      0.89      0.93       106
+        136       0.92      1.00      0.96        97
+        137       0.87      0.92      0.90       112
+        138       0.89      0.89      0.89       110
+        139       0.81      0.94      0.87       112
+        146       0.84      0.93      0.88        90
+        147       0.88      0.97      0.92        93
+        148       0.92      0.87      0.89       113
+        149       0.90      0.92      0.91       115
+        150       0.88      0.90      0.89       120
+        151       0.92      0.90      0.91       121
+        152       0.91      0.89      0.90       106
+        153       0.92      0.92      0.92       108
+        154       0.97      0.84      0.90       103
+        155       0.89      0.91      0.90       102
+        156       0.86      0.88      0.87       126
+        157       0.94      0.86      0.89       104
+        158       0.99      0.97      0.98        94
+        159       0.90      0.92      0.91       113
+
+avg / total       0.92      0.91      0.91      2718
+
+Train Accuracy: 1.0
+Test Accuracy for Ada boost Classifier:  0.9131714495952906
+
+MDC 1
+
+DecisionTreeClassifier(class_weight=None, criterion='gini', max_depth=None,
+            max_features=None, max_leaf_nodes=None,
+            min_impurity_decrease=0.0, min_impurity_split=None,
+            min_samples_leaf=1, min_samples_split=2,
+            min_weight_fraction_leaf=0.0, presort=False, random_state=None,
+            splitter='best')
+0.9397089397089398
+Test Accuracy: 0.9397089397089398
+             precision    recall  f1-score   support
+
+        100       0.95      0.95      0.95       384
+        101       0.93      0.93      0.93       367
+        102       0.92      0.96      0.94       368
+        103       0.96      0.92      0.94       324
+
+avg / total       0.94      0.94      0.94      1443
+
+Train Accuracy: 1.0
+Test Accuracy for Decision Tree:  0.9397089397089398
+RandomForestClassifier(bootstrap=True, class_weight=None, criterion='gini',
+            max_depth=None, max_features='auto', max_leaf_nodes=None,
+            min_impurity_decrease=0.0, min_impurity_split=None,
+            min_samples_leaf=1, min_samples_split=2,
+            min_weight_fraction_leaf=0.0, n_estimators=10, n_jobs=1,
+            oob_score=False, random_state=None, verbose=0,
+            warm_start=False)
+0.9286209286209286
+Test Accuracy: 0.9286209286209286
+             precision    recall  f1-score   support
+
+        100       0.88      0.95      0.91       384
+        101       0.95      0.92      0.93       367
+        102       0.92      0.94      0.93       368
+        103       0.98      0.90      0.94       324
+
+avg / total       0.93      0.93      0.93      1443
+
+Train Accuracy: 0.9994058229352347
+Test Accuracy for Random Forest:  0.9286209286209286
+AdaBoostClassifier(algorithm='SAMME.R',
+          base_estimator=DecisionTreeClassifier(class_weight=None, criterion='gini', max_depth=None,
+            max_features=None, max_leaf_nodes=None,
+            min_impurity_decrease=0.0, min_impurity_split=None,
+            min_samples_leaf=1, min_samples_split=2,
+            min_weight_fraction_leaf=0.0, presort=False, random_state=None,
+            splitter='best'),
+          learning_rate=0.1, n_estimators=1000, random_state=None)
+0.9397089397089398
+Test Accuracy: 0.9397089397089398
+             precision    recall  f1-score   support
+
+        100       0.95      0.95      0.95       384
+        101       0.93      0.93      0.93       367
+        102       0.93      0.96      0.94       368
+        103       0.95      0.92      0.93       324
+
+avg / total       0.94      0.94      0.94      1443
+
+Train Accuracy: 1.0
+Test Accuracy for Ada boost Classifier:  0.9397089397089398
+
+XGBClassifier(base_score=0.5, booster='gbtree', colsample_bylevel=1,
+       colsample_bytree=1, gamma=0, learning_rate=0.1, max_delta_step=0,
+       max_depth=3, min_child_weight=1, missing=None, n_estimators=1000,
+       n_jobs=1, nthread=None, objective='binary:logistic', random_state=0,
+       reg_alpha=0, reg_lambda=1, scale_pos_weight=1, seed=None,
+       silent=True, subsample=1)
+C:\Users\ak055384\AppData\Local\Programs\Python\Python36\lib\site-packages\sklearn\preprocessing\label.py:151: DeprecationWarning: The truth value of an empty array is ambiguous. Returning False, but in future this will result in an error. Use `array.size > 0`
+to check that an array is not empty.
+  if diff:
+C:\Users\ak055384\AppData\Local\Programs\Python\Python36\lib\site-packages\sklearn\preprocessing\label.py:151: DeprecationWarning: The truth value of an empty array is ambiguous. Returning False, but in future this will result in an error. Use `array.size > 0`
+to check that an array is not empty.
+  if diff:
+0.7283437283437283
+Test Accuracy: 0.7283437283437283
+             precision    recall  f1-score   support
+
+        100       0.70      0.76      0.73       384
+        101       0.73      0.77      0.75       367
+        102       0.72      0.72      0.72       368
+        103       0.79      0.66      0.72       324
+
+avg / total       0.73      0.73      0.73      1443
+
+C:\Users\ak055384\AppData\Local\Programs\Python\Python36\lib\site-packages\sklearn\preprocessing\label.py:151: DeprecationWarning: The truth value of an empty array is ambiguous. Returning False, but in future this will result in an error. Use `array.size > 0`
+to check that an array is not empty.
+  if diff:
+Train Accuracy: 0.9102792632204397
+Test Accuracy for XGB Classifier:  0.7283437283437283
